@@ -49,7 +49,7 @@ fun main () {
 
     /////////////////////////
 
-    println("\n4. default value if null")
+    println("\n5. default value if null")
 
     var nullTest: Int? = null
 

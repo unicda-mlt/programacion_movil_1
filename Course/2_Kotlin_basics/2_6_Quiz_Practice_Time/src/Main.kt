@@ -55,5 +55,5 @@ fun main () {
 
     nullTest = 1
 
-    println("nullTest value: ${nullTest?.plus(1) ?: 0}")
+    println("nullTest value: ${nullTest?.inc() ?: 0}")
 }

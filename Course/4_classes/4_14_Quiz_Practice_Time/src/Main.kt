@@ -1,4 +1,5 @@
 import spice.BrownSpiceColor
+import spice.Color
 import spice.Curry
 import spice.Spice
 import kotlin.random.Random
@@ -16,7 +17,6 @@ fun main () {
     for (spiceContainer in spiceContainers) {
         println("Label: ${spiceContainer.label} / Spice Color: ${spiceContainer.spice.color}")
     }
-
 }
 
 fun getGramOfSalt () = Random.nextInt(1, 2000)

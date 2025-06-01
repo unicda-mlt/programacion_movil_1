@@ -9,15 +9,15 @@ fun main () {
 
     println()
 
-    println("Is Wood building small?")
+    println("What kind of building is a Wood building?")
     println(isSmallBuilding(buildWood))
 
     println()
 
-    println("Is Brick building small?")
+    println("What kind of building is a Brick building?")
     println(isSmallBuilding(buildBrick))
 }
 
 fun <T: BaseBuildingMaterial> isSmallBuilding(building: Building<T>): String {
-    return if (building.actualMaterialsNeeded < 500) "Yes" else "No"
+    return if (building.actualMaterialsNeeded < 500) "Small building" else "Large building"
 }

@@ -11,7 +11,7 @@ class Book (val title: String, val author: String, val year: Int) {
     }
 
     fun printUrl () {
-        println(BASE_URL + "/book?${title.lowercase().replace(" ", "")}")
+        println(BASE_URL + "/book?${title.lowercase().replace(Regex("[^a-zA-Z0-9]"), "")}_$year")
     }
 
 }

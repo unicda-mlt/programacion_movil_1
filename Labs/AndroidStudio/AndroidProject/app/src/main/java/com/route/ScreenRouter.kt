@@ -1,5 +1,5 @@
 package com.route
 
-import androidx.navigation.NavController
+import androidx.navigation.NavHostController
 
-class ScreenRouter<T : Screen>(val screen: T, navController: NavController)
+class ScreenRouter<T : Screen>(val screen: T, val navController: NavHostController)

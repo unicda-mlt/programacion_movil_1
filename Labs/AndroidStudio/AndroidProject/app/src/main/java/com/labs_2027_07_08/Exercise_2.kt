@@ -45,5 +45,5 @@ fun TarjetaDePresentacion() {
 @Preview(showBackground = true)
 @Composable
 fun Lab20250708_Exercise_2_Screen_Preview() {
-    TarjetaDePresentacion()
+    Lab20250708_Exercise_2_Screen()
 }

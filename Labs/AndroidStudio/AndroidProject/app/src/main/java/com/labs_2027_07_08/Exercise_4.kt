@@ -72,6 +72,6 @@ fun Lab20250708_Exercise_4_Screen_Preview() {
         darkTheme = false,
         dynamicColor = false
     ) {
-        ArticuloSimple()
+        Lab20250708_Exercise_4_Screen()
     }
 }

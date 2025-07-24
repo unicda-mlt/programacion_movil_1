@@ -43,5 +43,5 @@ fun MiPrimerComposable() {
 @Preview(showBackground = true)
 @Composable
 fun Lab20250708_Exercise_1_Screen_Preview() {
-    MiPrimerComposable()
+    Lab20250708_Exercise_1_Screen()
 }

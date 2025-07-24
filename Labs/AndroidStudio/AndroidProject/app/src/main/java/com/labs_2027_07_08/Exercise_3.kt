@@ -42,5 +42,5 @@ fun IconosSociales() {
 @Preview(showBackground = true)
 @Composable
 fun Lab20250708_Exercise_3_Screen_Preview() {
-    IconosSociales()
+    Lab20250708_Exercise_3_Screen()
 }

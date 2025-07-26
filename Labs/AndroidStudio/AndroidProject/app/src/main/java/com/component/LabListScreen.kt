@@ -27,10 +27,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.route.Screen
+import com.route.AppRouteInfo
 
 
-data class LabItem(val screen: Screen, val title: String)
+data class LabItem(val appRoute: AppRouteInfo, val title: String)
 
 @Composable
 fun LabListScreen(title: String, labs: List<LabItem>, navController: NavHostController) {
@@ -62,7 +62,7 @@ fun LabListScreen(title: String, labs: List<LabItem>, navController: NavHostCont
                             containerColor = MaterialTheme.colorScheme.surfaceContainerHighest
                         ),
                         onClick = {
-                            navController.navigate(item.screen.route)
+                            navController.navigate(item.appRoute.route)
                         }
                     ) {
                         Box(

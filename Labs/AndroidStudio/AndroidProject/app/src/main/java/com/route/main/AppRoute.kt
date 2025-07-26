@@ -1,6 +1,6 @@
 package com.route.main
 
-import com.lab_2027_07_24_navigation.route.Lab20250724AppRoute
+import com.lab_2025_07_24_navigation.route.Lab20250724AppRoute
 import com.route.AppRouteInfo
 
 

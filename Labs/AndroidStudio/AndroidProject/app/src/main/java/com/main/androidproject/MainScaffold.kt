@@ -6,7 +6,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.lab_2027_07_24_navigation.route.Lab20250724AppRoute
+import com.lab_2025_07_24_navigation.route.Lab20250724AppRoute
 import com.route.AppNestedRoute
 import com.route.AppRouteInfo
 import com.route.main.MainAppRoute

@@ -3,7 +3,7 @@ package com.route
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
-import com.lab_2027_07_24_navigation.route.lab20250724NavGraph
+import com.lab_2025_07_24_navigation.route.lab20250724NavGraph
 import com.route.main.mainNavGraph
 
 
